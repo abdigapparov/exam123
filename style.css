@@ -1,0 +1,147 @@
+body { 
+    font-family: "Quantico", sans-serif; 
+    color: #fff; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+.navbar { 
+    display: flex; 
+    align-items: center; 
+    background-color: #1E1E2E; 
+    padding: 10px; 
+  
+} 
+ 
+.navbar a { 
+    text-decoration: none; 
+    color: #fff; 
+    padding: 10px; 
+    margin-right: 10px; 
+    border-bottom: 2px solid transparent; 
+} 
+ 
+.navbar a:hover { 
+  color: #FF9C28;
+  transition: 0.5s;
+} 
+ 
+.search-input { 
+    padding: 5px; 
+    margin-left: auto; 
+    margin-right: 10px; 
+    border-radius: 5px; 
+    border: none; 
+} 
+.tex{
+    font-family: "Quantico", sans-serif; 
+}
+ 
+.search-btn { 
+    background-color: transparent; 
+    border: none; 
+    color: #fff; 
+    cursor: pointer; 
+    font-size: 18px; 
+} 
+ 
+.language-select { 
+    padding: 5px; 
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    margin-left: 10px; 
+    cursor: pointer; 
+    font-family: "Quantico", sans-serif; 
+
+}
+.back{
+    background: url(Bg.png) no-repeat;
+    height: 555px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8  0px;
+    
+}
+.major{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+.img-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main_item{
+    background-color: black;
+    padding-top: 50px;
+}
+.color{
+    background-color: black;
+    height: 1000px;
+}
+.content{
+    background-color: #1B1E27;
+    height: 950px;
+    width: 1400px;
+    margin-left: 30px;
+    padding-top: 50px;
+}
+.text{
+    width: 400px;
+}
+.oneimg{
+    display: flex;
+    margin-left: 200px;
+    gap: 40px;
+}
+.PGL{
+    margin-left: 200px;
+}
+.twoimg{
+    display: flex;
+    margin-left: 200px;
+    gap: 40px;
+    margin-top: 150px;
+}
+footer{
+    background-color: #272C3D;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    box-shadow: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.head_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 25px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.head_ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 15px;
+}
+.head_ul :hover{
+    color: #FF9C28;
+    transition: 0.5s;
+ 
+}
+.head_ul a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
